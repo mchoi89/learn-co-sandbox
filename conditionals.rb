@@ -16,7 +16,6 @@ def assign_conferenceroom(speakers)
   end
 end
 
-
 def printer(speakers)
   group_badge_maker(speakers).each do |result|
     puts result
@@ -25,7 +24,4 @@ def printer(speakers)
   assign_conferenceroom(speakers).each do |result|
     puts result
   end
-end
-end
-end
 end
